@@ -19,7 +19,7 @@ A common classification method in machine learning is called [K-nearest-neighbor
 
 However, even this best result did not produce improved scores, not quite reaching a score of 0.85.
 
-Another model that we tried was the random forest classifier. This method uses multiple decisions trees from the dataset to make the final prediction. After fitting the data to the model, the coefficient of determination was 0.88. This method is comparable to our baseline score with the logistic regression model.
+Another model that we tried was the random forest classifier. This method uses multiple decisions trees from the dataset to make the final prediction. After fitting the data to the model, the coefficient of determination was 0.88. This method is comparable to our baseline score with the logistic regression model but does not out perform it.
 
 
 The logistic regression seemed to be the most accurate model for our data when comparing AUC scores. Our next exploratory decision was to analyze the features and use Feature Engineering techniques. Using `feature_importances`, we identify the features that have the least amount of importance and drop those to try and improve our model. Dropping features that are less important can improve our model as it eliminates potentially misleading data. The `'resting_ekg_results'`, `'sex'`, and `'fasting_blood_sugar_gt_120_mg_per_dl'` features received noticeably smaller values. We tried dropping these features and fit our logistic regression model to the updated training set. The average AUC score was almost the same as previous logistic regression score.
