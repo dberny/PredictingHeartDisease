@@ -33,4 +33,6 @@ There is an argument that this model may not have worked as well as it could wit
 
 At least for now, it might be a bit preemptive to assume that machine learning is the key to solving all the mysteries of the world. In the case of predicting heart disease, logistic regression does the same job while being more straightforward and less computationally expensive. However, the effectiveness of machine learning can only improve as techniques are improved and streamlined, so it can’t be totally written off either.
 
+Our current rank in the Driven Data competition: ['Warm Up: Machine Learning with a Heart'](https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/page/107/) is 357 out of 1995.
+
 If you want to learn more about our process you can see our notebook [here](https://github.com/dberny/PredictingHeartDisease/blob/master/project3/project3.ipynb)
