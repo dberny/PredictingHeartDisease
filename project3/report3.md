@@ -25,8 +25,4 @@ There is an argument that this model may not have worked as well as it could wit
 
 At least for now, it might be a bit preemptive to assume that machine learning is the key to solving all the mysteries of the world. In the case of predicting heart disease, logistic regression does the same job while being more straightforward and less computationally expensive. However, the effectiveness of machine learning can only improve as techniques are improved and streamlined, so it can’t be totally written off either.
 
-
-
-After controlling for population, we were able to identify states that stick out. Arizona, New Mexico, Oklahoma, and Alaska have the most deaths per person. On the other hand, there is a cluster of states in the North East that have the fewest deaths per person.
-
 If you want to learn more about our process you can see our notebook [here](https://github.com/dberny/PredictingHeartDisease/blob/master/project3/project3.ipynb)
