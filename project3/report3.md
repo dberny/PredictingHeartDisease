@@ -19,6 +19,14 @@ A common classification method in machine learning is called [K-nearest-neighbor
 
 However, even this best result did not produce improved scores, not quite reaching a score of 0.85.
 
+Another model that we tried was the random forest classifier. This method uses multiple decisions trees from the dataset to make the final prediction. After fitting the data to the model, the coefficient of determination was 0.88. This method is comparable to our baseline score with the logistic regression model.
+
+
+The logistic regression seemed to be the most accurate model for our data when comparing AUC scores. Our next exploratory decision was to analyze the features and use Feature Engineering techniques. Using `feature_importances`, we identify the features that have the least amount of importance and drop those to try and improve our model. Dropping features that are less important can improve our model as it eliminates potentially misleading data. The `'resting_ekg_results'`, `'sex'`, and `'fasting_blood_sugar_gt_120_mg_per_dl'` features received noticeably smaller values. We tried dropping these features and fit our logistic regression model to the updated training set. The average AUC score was almost the same as previous logistic regression score.
+
+Another feature engineering method we used was binning data. There were a few features that had numerical data, like age and resting heart rate, that we wanted to bin. This would reduce potential noise within those features and hopefully yield more accuracy. The binning however did not seem to have a positive effect on the AUC score. The average score after using the 5-fold method was less than our baseline score which means that binning did not improve our model's performance.
+
+
 
 Deep learning has been lauded as the answer to solving any number of problems people may tackle in the future ([or even just everything](https://www.alphr.com/the-future/1001614/are-ai-and-deep-learning-the-future-of-well-everything)), but reality seems to be a little less exciting than that. After training a deep learning model with one hidden layer on the data, the F1 score hovers around 0.83, still just a bit under the performance of logistic regression.
 There is an argument that this model may not have worked as well as it could with more data, because heart disease depends on many factors which may not all be fully captured in less than just 200 patients, and an organization with access to a larger pool of data may have more success
