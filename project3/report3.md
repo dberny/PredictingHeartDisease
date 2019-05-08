@@ -3,7 +3,7 @@
 ## Diego Berny and Anna Griffin
 
 
-[notebook](newlink)
+[notebook](https://github.com/dberny/PredictingHeartDisease/blob/master/project3/project3.ipynb)
 
 
 According to the CDC, heart disease is the [leading cause of death](https://www.cdc.gov/dhdsp/data_statistics/fact_sheets/fs_heart_disease.htm) in the US for both men and women]. We use data from real patients provided by the Cleveland Heart Disease Database to determine how accurately heart disease can be identified based on a number of different physical characteristics/measurements provided.
@@ -27,8 +27,6 @@ At least for now, it might be a bit preemptive to assume that machine learning i
 
 
 
-
-
 After controlling for population, we were able to identify states that stick out. Arizona, New Mexico, Oklahoma, and Alaska have the most deaths per person. On the other hand, there is a cluster of states in the North East that have the fewest deaths per person.
 
-If you want to learn more about our process you can see our notebook [here](https://github.com/annagriffin/PoliceShootings/blob/master/project2/project2.ipynb)
+If you want to learn more about our process you can see our notebook [here](https://github.com/dberny/PredictingHeartDisease/blob/master/project3/project3.ipynb)
